@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     libcurl4-gnutls-dev \
     libcairo2-dev \
     libxt-dev \
-    libssl-dev \
+    libssl-dev/unstable \
     libssh2-1-dev \
     libssl1.0.0 \
     libmariadb-client-lgpl-dev
