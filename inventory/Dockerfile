@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     libmariadb-client-lgpl-dev \
     cmake \ 
-    libpng-devel
+    libpng-dev
 
 RUN zint.sh
 
