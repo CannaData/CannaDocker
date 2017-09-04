@@ -13,5 +13,5 @@ COPY Rprofile.site /usr/local/lib/R/etc/
 
 EXPOSE 3838
 
-CMD ["R", "-e CannaSignup::signup()"]
+CMD ["R", "-e CannaSignup::confirm()"]
   
